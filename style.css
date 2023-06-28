@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(#F72E86, #DDCCC3, #46B8B5);
+}
+
+/*WHOLE DIV*/
+.content{
+    margin: auto;
+    padding: auto;
+    width: 95%;
+}
+
+/*PART ONE*/
+.lineone{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftone{
+    flex: 35%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.rightone{
+    flex: 65%;
+    height: auto;
+}
+
+.linetwo{
+    margin: auto;
+    padding: auto;
+    width: 95%;
+}
+
+.linethree{
+    margin: auto;
+    padding: auto;
+    width: 95%; 
+}
