@@ -71,3 +71,32 @@ body{
     margin-top: 5px;
     margin-bottom: 50px;
 }
+
+/*SCREENS OVER 500PX*/
+@media screen and (min-width: 500px ) {
+    body{
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    .leftone{
+        margin-right: 50px;
+    }
+
+    .linethree{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .linefive{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+        
+    .lineseven{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
