@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(#F72E86, #DDCCC3, #46B8B5);
+    background-image: linear-gradient(#F72E86, #DDCCC3 25%, #DDCCC3 65%, #46B8B5 100%);
 }
 
 /*WHOLE DIV*/
