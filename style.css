@@ -30,16 +30,18 @@ body{
 .linethree{
     margin: auto;
     padding: auto;
-    width: 95%; 
+    width: 30%; 
     margin-top: 10px;
 }
 
 /*PART TWO*/
 .linefour{
+    position: sticky;
+    top: 0;
     margin: auto;
     padding: auto;
-    width: 95%;  
-    margin-top: 10px;
+    width: 95%; 
+    background-color: aqua; 
 }
 
 .lineeight{
@@ -92,8 +94,8 @@ body{
     margin-bottom: 50px;
 }
 
-/*SCREENS OVER 500PX*/
-@media screen and (min-width: 500px ) {
+/*SCREENS OVER 550PX*/
+@media screen and (min-width: 550px ) {
     body{
         margin: auto;
         padding: auto;
@@ -114,16 +116,14 @@ body{
         margin-bottom: 50px;
     }
 
-    .linefour{
-        margin-bottom: 50px;
-    }
-
     .linefive{
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
-        
+    .linefourpointone{
+        margin-top: 50px;
+    }
     .lineseven{
         margin-top: 80px;
         margin-bottom: 80px;
