@@ -2,18 +2,11 @@ body{
     background-image: linear-gradient(#F72E86, #F72E86 5%, #DDCCC3 25%, #DDCCC3 65%, #46B8B5 100%);
 }
 
-/*WHOLE DIV*/
-.content{
-    margin: auto;
-    padding: auto;
-    width: 95%;
-    margin-top: 5vw;
-}
-
 /*PART ONE*/
 .lineone{
     display: flex;
     flex-direction: row;
+    margin-top: 5vw;
 }
 
 .leftone{
@@ -68,7 +61,7 @@ body{
     padding: auto;
     width: 95%;  
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 /*SCREENS OVER 500PX*/
@@ -96,6 +89,10 @@ body{
         
     .lineseven{
         margin-top: 80px;
-        margin-bottom: 80px;
     }
+}
+
+/*OVERLAY*/
+.lineseven{
+    mix-blend-mode: multiply;
 }
