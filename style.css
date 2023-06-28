@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(#F72E86, #F72E86 5%, #DDCCC3 25%, #DDCCC3 65%, #46B8B5 100%);
+    background-image: url(images/backgroundtexture.png);
+    /*background-image: linear-gradient(#F72E86, #F72E86 5%, #DDCCC3 25%, #DDCCC3 65%, #46B8B5 100%);*/
 }
 
 /*PART ONE*/
@@ -34,7 +35,34 @@ body{
 }
 
 /*PART TWO*/
-.linefour, .linefive, .linesix, .lineseven, .lineeight, .lineten, .lineeleven {
+.linefour{
+    margin: auto;
+    padding: auto;
+    width: 95%;  
+    margin-top: 10px;
+}
+
+.lineeight{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: auto;
+    width: 95%;  
+    margin-top: 5px;
+}
+
+.lineeightleft{
+    flex: 20%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.lineeightright{
+    flex: 80%;
+    height: auto;
+}
+
+.linefourpointone, .linefive, .linesix, .lineseven, .lineten, .lineeleven, .lineeightrest {
     margin: auto;
     padding: auto;
     width: 95%;  
@@ -86,6 +114,10 @@ body{
         margin-bottom: 50px;
     }
 
+    .linefour{
+        margin-bottom: 50px;
+    }
+
     .linefive{
         margin-top: 50px;
         margin-bottom: 50px;
@@ -108,5 +140,13 @@ body{
 
     .linetwelve{
         margin-bottom: 300px;
+    }
+
+    .lineeightleft{
+        margin-right: 50px;
+    }
+
+    .lineeightright{
+        margin-bottom: 30px;
     }
 }
