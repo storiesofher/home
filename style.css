@@ -61,7 +61,7 @@ body{
     padding: auto;
     width: 95%;  
     margin-top: 15px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 /*SCREENS OVER 500PX*/
@@ -89,5 +89,19 @@ body{
         
     .lineseven{
         margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .linenine{
+        margin-top: 30px;
+    }
+
+    .lastblock{
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .linetwelve{
+        margin-bottom: 300px;
     }
 }
