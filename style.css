@@ -49,11 +49,10 @@ body{
 }
 
 .linenine{
-    margin-left: auto;
-    margin-right: 10px;
+    margin: auto;
     margin-top: 5px;
     padding: auto;
-    width: 85%;    
+    width: 95%;    
 }
 
 /*PART THREE*/
@@ -68,7 +67,7 @@ body{
     margin: auto;
     padding: auto;
     width: 95%;  
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 50px;
 }
 
