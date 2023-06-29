@@ -84,13 +84,7 @@ body{
 }
 
 /*PART THREE*/
-.lastblock{
-    margin: auto;
-    padding: auto;
-    width: 95%;  
-    margin-top: 10px; 
-    margin-bottom: 100px;
-}
+
 
 /*SCREENS OVER 550PX*/
 @media screen and (min-width: 550px ) {
@@ -129,11 +123,6 @@ body{
 
     .linenine{
         margin-top: 30px;
-    }
-
-    .lastblock{
-        margin-top: 50px;
-        margin-bottom: 300px;
     }
 
     .lineeightleft{
