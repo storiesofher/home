@@ -89,14 +89,7 @@ body{
     padding: auto;
     width: 95%;  
     margin-top: 10px; 
-}
-
-.linetwelve{
-    margin: auto;
-    padding: auto;
-    width: 95%;  
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 /*SCREENS OVER 550PX*/
@@ -140,10 +133,6 @@ body{
 
     .lastblock{
         margin-top: 50px;
-        margin-bottom: 150px;
-    }
-
-    .linetwelve{
         margin-bottom: 300px;
     }
 
