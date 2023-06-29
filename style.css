@@ -116,6 +116,24 @@ body{
     margin-top: 10px;
 }
 
+.lblfour{
+    margin-top: 30px;
+}
+
+.lineseven{
+    animation: tilt 1.3s infinite;
+}
+
+@keyframes tilt {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(0) }
+    35% { transform: rotate(5deg) }
+    55% { transform: rotate(-5deg) }
+    65% { transform: rotate(5deg) }
+    75% { transform: rotate(-5deg) }
+    100% { transform: rotate(0) }
+}
+
 /*SCREENS OVER 550PX*/
 @media screen and (min-width: 550px ) {
     body{
@@ -181,7 +199,7 @@ body{
     }
 
     .lbrtwo{
-        margin-top: 60px;
+        margin-top: 45px;
     }
 
     .lblfour svg:hover{
