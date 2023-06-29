@@ -31,7 +31,7 @@ body{
     margin: auto;
     padding: auto;
     width: 30%; 
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 /*PART TWO*/
@@ -182,5 +182,9 @@ body{
 
     .lbrtwo{
         margin-top: 60px;
+    }
+
+    .lblfour svg:hover{
+        transform: scale(1.1);
     }
 }
