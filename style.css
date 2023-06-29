@@ -84,7 +84,37 @@ body{
 }
 
 /*PART THREE*/
+.lastblock{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: auto;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
 
+.lbleft{
+    flex: 50%;
+    margin-right: 10px;
+}
+
+.lbright{
+    flex: 50%;
+}
+
+.lblone{
+    width: 80%;
+}
+
+.lbrone{
+    display: flex;
+    justify-content: center;
+}
+
+.lbrtwo{
+    margin-top: 10px;
+}
 
 /*SCREENS OVER 550PX*/
 @media screen and (min-width: 550px ) {
@@ -131,5 +161,26 @@ body{
 
     .lineeightright{
         margin-bottom: 30px;
+    }
+
+    .lastblock{
+        margin-top: 30px;
+    }
+    
+    .lbleft{
+        margin-right: 50px;
+    }
+
+    .lbltwo{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .lblthree{
+        margin-bottom: 30px;
+    }
+
+    .lbrtwo{
+        margin-top: 60px;
     }
 }
